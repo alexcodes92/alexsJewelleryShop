@@ -1,5 +1,7 @@
 # Alex's Jewellery Shop
 
+![homepage](homepage.png)
+
 ### Description
 
 An online store for purchasing jewellery including earrings, bracelets and necklaces.
@@ -20,7 +22,6 @@ An online store for purchasing jewellery including earrings, bracelets and neckl
 ### Usage
 
 Open index.html to view in browser.
-![homepage](homepage.png)
 Navigate using the top navigation bar and footer navigation.
 
 ### Credits
