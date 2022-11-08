@@ -12,7 +12,10 @@ An online store for purchasing jewellery including earrings, bracelets and neckl
 
 ### Installation
 
-N/A
+1. On the repository homepage, click the "Code" button. A dropdown will appear with the URL to clone the repository.
+2. Copy the URL to clipboard.
+3. Open your terminal and run **git clone <URL>**.
+   The project will now be downloaded to your computer.
 
 ### Usage
 
