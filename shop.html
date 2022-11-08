@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+        <!-- external CSS -->
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+
+        <!-- Google fonts https://fonts.google.com/ -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Google icons -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <title>Shop</title>
+    </head>
+
+    <body>
+        <section class="shop-heading">
+            <!-- NAVBAR -->
+            <nav class="main-navbar navbar navbar-expand-lg navbar-light">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav-wrapper collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="shop.html"
+                                >Shop <span class="sr-only">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <h1 class="brand-heading">Alex's Jewellery Shop</h1>
+                    <form class="search-form form-inline">
+                        <input
+                            class="form-control mr-sm-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button class="search-button btn p-1 my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                        <a href="basket.html"
+                            ><span class="material-symbols-outlined"> shopping_bag </span
+                            ><span class="basket-count">0</span></a
+                        >
+                    </form>
+                </div>
+            </nav>
+            <div class="shop-banner">
+                <img
+                    class="banner-image img-fluid"
+                    src="images/bannerimage.jpeg"
+                    alt="blonde haired woman smelling pink flours and wearing gold hoop earrings"
+                />
+                <div class="shop-text">Shop</div>
+            </div>
+        </section>
+
+        <!-- HOVERTABLE -->
+        <!-- I created a responsive hover table with Bootstrap https://getbootstrap.com/docs/4.1/content/tables/#hoverable-rows. 
+        I removed the <thead> as it wasn't needed.
+        The images were made responsive and I made them thumbnails using Bootstrap 
+        https://getbootstrap.com/docs/4.1/content/images/#responsive-images. I added shadows around the images with Bootstrap
+        https://getbootstrap.com/docs/4.1/utilities/shadows/#examples -->
+        <section class="hover-table">
+            <div class="table-responsive">
+                <table class="table table-hover products-table">
+                    <tbody>
+                        <tr>
+                            <td class="product-1">
+                                <a href="gold-pendant.html">
+                                    <img
+                                        class="image prod-img-1 product-img-resp img-thumbnail img-fluid shadow p-1 mb-3 bg-white"
+                                        src="images/goldpendant.jpeg"
+                                        alt="person wearing a gold pendant and choker necklace"
+                                /></a>
+                                <p class="title item-title">Gold Pendant</p>
+                                <p>£<span class="price pendant-price prices">230</span></p>
+                                <a class="quick-add-button basket1">Add to Basket</a>
+                            </td>
+                            <td class="product-2">
+                                <a href="moon-earrings.html">
+                                    <img
+                                        class="image prod-img-2 product-img-resp img-thumbnail img-fluid shadow p-1 mb-3 bg-white"
+                                        src="images/moonearrings.jpeg"
+                                        alt="person wearing a silver moonshaped earrings"
+                                /></a>
+                                <p class="title item-title">Silver Moon Earrings</p>
+                                <p>£<span class="price moon-price prices">100</span></p>
+                                <a class="quick-add-button basket2">Add to Basket</a>
+                            </td>
+                            <td class="product-3">
+                                <a href="pearl-earrings.html">
+                                    <img
+                                        class="image prod-img-3 product-img-resp img-thumbnail img-fluid shadow p-1 mb-3 bg-white"
+                                        src="images/pearlearrings.jpeg"
+                                        alt="person wearing pearl earrings"
+                                /></a>
+                                <p class="title item-title">Pearl Earrings</p>
+                                <p>£<span class="price pearl-price prices">90</span></p>
+                                <a class="quick-add-button basket3">Add to Basket</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="product-4">
+                                <a href="silver-hoops.html">
+                                    <img
+                                        class="image prod-img-4 product-img-resp img-thumbnail img-fluid shadow p-1 mb-3 bg-white"
+                                        src="images/silverhoops.jpeg"
+                                        alt="person wearing silver hoop earrings"
+                                /></a>
+                                <p class="title item-title">Silver Hoop Earrings</p>
+                                <p>£<span class="price silver-hoops-price prices">70</span></p>
+                                <a class="quick-add-button basket4">Add to Basket</a>
+                            </td>
+                            <td class="product-5">
+                                <a href="silver-necklace.html">
+                                    <img
+                                        class="image prod-img-5 product-img-resp img-thumbnail img-fluid shadow p-1 mb-3 bg-white"
+                                        src="images/silvernecklace.jpeg"
+                                        alt="hands holding up a silver necklace"
+                                /></a>
+                                <p class="title item-title">Silver Necklace</p>
+                                <p>£<span class="price necklace-price prices">165</span></p>
+                                <a class="quick-add-button basket5">Add to Basket</a>
+                            </td>
+                            <td class="product-6">
+                                <a href="gold-hoops.html">
+                                    <img
+                                        class="image prod-img-6 product-img-resp img-thumbnail img-fluid shadow p-1 mb-3 bg-white"
+                                        src="images/goldhoops.jpeg"
+                                        alt="person wearing a gold hoop earrings"
+                                /></a>
+                                <p class="title item-title">Gold Hoop Earrings</p>
+                                <p>£<span class="price gold-hoops-price prices">110</span></p>
+                                <a class="quick-add-button basket6">Add to Basket</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col info-column">
+                        <h5>Information</h5>
+                        <br />
+                        <p>
+                            <a class="footer-hyperlinks" href="#">About Us</a>
+                        </p>
+                        <p>
+                            <a class="footer-hyperlinks" href="delivery.html">Delivery</a>
+                        </p>
+                        <p><a class="footer-hyperlinks" href="#">Returns</a></p>
+                        <p><a class="footer-hyperlinks" href="#">FAQ</a></p>
+                        <p>
+                            <a class="footer-hyperlinks" href="#">Sustainability Statement</a>
+                        </p>
+                        <p><a class="footer-hyperlinks" href="contact.html">Contact</a></p>
+                    </div>
+                    <div class="col email-column">
+                        <h5>Subcribe to our newsletter for 10% off your first order!</h5>
+                        <br />
+                        <form class="email-form form-inline form-horizontal">
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <input
+                                        type="email"
+                                        class="form-control mb-2 mr-sm-1"
+                                        id="inputEmail3"
+                                        placeholder="Enter your email"
+                                    />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <button type="submit" class="submit-button btn p-1 mb-2">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <!-- SOCIALS -->
+                        <!-- I added floating boxes for the social icons using the W3Schools guide 
+                            https://www.w3schools.com/css/css_float_examples.asp -->
+                        <div class="clearfix">
+                            <div class="box">
+                                <a href="#"
+                                    ><img
+                                        class="icon-images"
+                                        src="images/linkedinicon.png"
+                                        alt="Black LinkedIn icon"
+                                /></a>
+                            </div>
+                            <div class="box">
+                                <a href="#"
+                                    ><img
+                                        class="icon-images"
+                                        src="images/facebookicon.png"
+                                        alt="Black Facebook icon"
+                                /></a>
+                            </div>
+                            <div class="box">
+                                <a href="#"
+                                    ><img
+                                        class="icon-images"
+                                        src="images/instagramicon.png"
+                                        alt="Black Instagram icon"
+                                /></a>
+                            </div>
+                            <div class="box">
+                                <a href="#"
+                                    ><img
+                                        class="icon-images"
+                                        src="images/twittericon.png"
+                                        alt="Black Twitter icon"
+                                /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="shop.js"></script>
+    </body>
+</html>
